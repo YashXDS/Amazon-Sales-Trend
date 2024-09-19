@@ -58,27 +58,27 @@ Install them using the following command:
 ```bash
 pip install pandas matplotlib seaborn scipy scikit-learn
 ```
-#How to Run
+## How to Run
 
 Clone this repository.
 Place the dataset Amazon Sales data.csv in the same directory as the code.
 Run the Python script to perform data cleaning, analysis, and build the machine learning model.
 The results will include various visualizations and predictions for Total Revenue.
 
-#Results and Insights
+## Results and Insights
 
 - **Sales Trend Analysis**: Monthly and yearly sales trends indicate seasonal peaks in sales.
 - **Statistical Tests**: A t-test revealed differences in revenue between online and offline channels. An ANOVA test highlighted the effect of order priority on revenue.
 - **Model Evaluation**: The linear regression model showed an R-squared score indicating the strength of the relationship between features and Total Revenue.
 
-#Example Output
+## Example Output
 
 Predicted revenue for 1000 units sold with a unit price of $50 and a unit cost of $30:
 
 ``` bash
 Predicted Revenue: $48,500
 ```
-#Future Improvements
+## Future Improvements
 
 Implement more advanced machine learning models such as RandomForest or GradientBoosting to improve prediction accuracy.
 Add more detailed analysis on different sales channels and product categories.
